@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1 id="h1element">Mi curso javascript</h1>
+    <section>
+      <p class="text">este es el primer parrafo</p>
+      <p class="text">este es el segundo parrafo</p>
+      <p class="text">este es el tercer parrafo</p>
+
+      <button id="boton">Apretar</button>
+    </section>
+    <section>
+      <h2>Ejercicio 2: Formulario con alerta</h2>
+      <form id="formularioalert" action="/">
+        <label for="textoinput">ingresa un texto:</label>
+        <input type="text" id="textoinput" name="texto">
+        <button type="submit">Mostrar alerta</button>
+      </form>
+    </section>
+    <section>
+      <h2>Ejercicio 1: Lista con elementos</h2>
+      <ul id="ul1">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Ejercicio 2: Campo de texto y botones</h2>
+      <div>
+        <input type="text" id="textoinputdes" name="texto" placeholder="Ingresa algo">
+        <button id="des">Deshabilitar campo</button>
+        <button id="hab">Habilitar campo</button>
+      </div>
+    </section>
+    <section>
+      <h2>LocalStorage</h2>
+      <form id="formulariolocal" action="/">
+        <label for="correo">Correo Electronico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <button type="submit">Guardar correo</button>
+      </form>
+      <div id="divcorreo" style="display: none;">
+        <p></p>
+        <button id="borrar">Eliminar correo guardado</button>
+      </div>
+    </section>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
